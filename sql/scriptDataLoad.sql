@@ -1,0 +1,22 @@
+-- Inserção de dados na tabela usuario
+INSERT INTO usuario (nome_completo, endereco_email, senha, telefone, empresa, foto)
+VALUES('Mariah Aparecida', 'mariah.aparecida@gmail.com', '6skh6PTc', '+55 71 8764-7593', 'da Paz Carvalho S/A', '/explicabo/sit.jpg'),
+('Clara das Neves', 'clara.das.neves@gmail.com', 'rUR43GIv%7m', '+55 41 1578 1565', 'Novaes Mendes - ME', '/facilis/quasi.jpg'),
+('Yan Albuquerque', 'yan.albuquerque@yahoo.com', 'vq7hDBAudJj_g', '+55 31 6097 5351', 'Nunes Câmara S.A.', '/quisquam/dicta.jpg'),
+('Ayla Barros', 'ayla.barros@icloud.com', 'S3drwgrhvWCCq', '(051) 8714 8418', 'Nogueira', '/sed/enim.jpg'),
+('Laura Macedo', 'laura.macedo@icloud.com', 'Un5mD<XQ1', '+55 31 9659 3423', 'Andrade Pimenta e Filhos', '/pariatur/facilis.jpg'),
+('Caio Rocha', 'caio.rocha@gmail.com', '@0Ef)R4qM*X', '+55 81 2018 6848', 'Cunha Rocha - EI', '/repellendus/nihil.jpg'),
+('Rael Monteiro', 'rael.monteiro@hotmail.com', 'k6P6GSB<kM7%', '11 1591 7953', 'Almeida Siqueira Ltda.', '/voluptatibus/cum.jpg'),
+('Marcelo Vieira', 'marcelo.vieira@hotmail.com', '9GeD<O-%a4', '+55 (041) 5601-2309', 'Alves S/A', '/eaque/tempora.jpg'),
+('Bárbara Gonçalves', 'barbara.goncalves@outlook.com', '8Awma44-7NiW', '+55 31 5109 0321', 'Costela', '/veritatis/assumenda.jpg'),
+('Yago Lima', 'yago.lima@outlook.com', 'l7P8Oayb_&#', '0900-141-3145', 'Cirino', '/provident/assumenda.jpg'),
+('Ana Cecília Peixoto', 'ana.cecilia.peixoto@icloud.com', 'e&+gLf77jKQ', '+55 41 6345 7923', 'Viana e Filhos', '/dolorem/dolore.jpg'),
+('Dr. Dante Peixoto', 'dr.dante.peixoto@icloud.com', '-_723EZC(ItebQ', '(031) 2076-9845', 'Ribeiro', '/dolor/explicabo.jpg'),
+('Alice Marques', 'alice.marques@outlook.com', 'a3efczNvLP4', '+55 21 5084 2375', 'Rocha', '/rerum/magnam.jpg'),
+('Caroline Silva', 'caroline.silva@outlook.com', 'sKFhYBF%eYXe50i', '(041) 6610 9352', 'Câmara Porto - ME', '/voluptatum/minus.jpg'),
+('Maria Vitória Andrade', 'maria.vitoria.andrade@hotmail.com', 'PkoJ&f!$hYP', '71 9602 7142', 'Moura', '/ratione/placeat.jpg'),
+('Agatha Andrade', 'agatha.andrade@gmail.com', '_$mLqEeD>', '11 5470-6381', 'Albuquerque Guerra e Filhos', '/ipsam/nesciunt.jpg'),
+('Heitor Albuquerque', 'heitor.albuquerque@icloud.com', 'v259YLoqe5eydK)', '+55 (011) 8913 1934', 'Sales', '/consequuntur/ducimus.jpg'),
+('Maria Laura Pires', 'maria.laura.pires@outlook.com', 'eN$ff%F+RS', '+55 21 0471 4285', 'Cassiano Ltda.', '/animi/ad.jpg'),
+('Gustavo Rodrigues', 'gustavo.rodrigues@gmail.com', 'GSO_p4sEZ', '+55 71 8559-0977', 'Freitas', '/dolorum/quidem.jpg'),
+('Marcos Vinicius Pastor', 'marcos.vinicius.pastor@icloud.com', 'y6fJ<<fqu_&&Cm#', '(021) 0224 5551', 'Vasconcelos', '/amet/sit.jpg');
