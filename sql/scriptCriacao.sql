@@ -1,8 +1,8 @@
 -- Criação da Tabela usuario
 CREATE TABLE usuario (
   id SERIAL PRIMARY KEY,
-  nome_completo VARCHAR(30) NOT NULL,
-  endereco_email VARCHAR(320) NOT NULL UNIQUE,
+  nome VARCHAR(100) NOT NULL,
+  email VARCHAR(320) NOT NULL UNIQUE,
   senha VARCHAR(64) NOT NULL,
   telefone VARCHAR(25) NOT NULL,
   empresa VARCHAR(50) DEFAULT 'Empresa Não Informada',
@@ -12,3 +12,4 @@ CREATE TABLE usuario (
   CHECK (LENGTH(senha) >= 8),
   CHECK (LENGTH(telefone) BETWEEN 8 AND 15)
 );
+
