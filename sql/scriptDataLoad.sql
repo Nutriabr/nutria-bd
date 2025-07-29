@@ -20,3 +20,21 @@ VALUES('Mariah Aparecida', 'mariah.aparecida@gmail.com', '6skh6PTc', '+55 71 876
 ('Maria Laura Pires', 'maria.laura.pires@outlook.com', 'eN$ff%F+RS', '+55 21 0471 4285', 'Cassiano Ltda.', '/animi/ad.jpg'),
 ('Gustavo Rodrigues', 'gustavo.rodrigues@gmail.com', 'GSO_p4sEZ', '+55 71 8559-0977', 'Freitas', '/dolorum/quidem.jpg'),
 ('Marcos Vinicius Pastor', 'marcos.vinicius.pastor@icloud.com', 'y6fJ<<fqu_&&Cm#', '(021) 0224 5551', 'Vasconcelos', '/amet/sit.jpg');
+
+-- Inserção de dados na tabela admins
+INSERT INTO admins(nome,email,senha)
+VALUES ('Andreas Dezen Silva','andreas.germinare@gmail.com','1234567810'),
+('Beatriz Teixeira Marioti','b.tmarioti3.0@gmail.com','1234567810'),
+('Caio de Oliveira Garcia','caiodegarcia.oficial@gmail.com','1234567810'),
+('Enzo D´angio Mota','enzo.mota@germinare.org.br','1234567810'),
+('Gabriel Ferreira Texeira','gabriel.ferreira@germinare.org.br','1234567810'),
+('Giovanna Almeida dos Santos','gihalmeida127@gmail.com','1234567810'),
+('Giovanna Medeiros Veloso','giovanna.veloso@germinare.org.br','1234567810'),
+('Giulia Galeote Santana Oliveira','giulia.gso.2008@gmail.com','1234567810'),
+('Giulia Monteiro Monara','giulia.manara@germinare.org.br','1234567810'),
+('Lívia Izidório','liviaizidorio.li@gmail.com','1234567810'),
+('Luis Henrique Medeiros ','luis.medeiros@germinare.org.br','1234567810'),
+('Luke Francischini Pereira dos Santos','pereiraluke12.gmail.com','1234567810'),
+('Mariana Marrão Ferreira Felis','mariana.felis@germinare.org.br','1234567810'),
+('Marcos Guilherme Araújo','marcosedaviaraujo@gmail.com','1234567810'),
+('Matheus Lima Botana Gama','matheus.gama@germinare.org.br','1234567810'); 
