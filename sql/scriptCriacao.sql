@@ -45,4 +45,12 @@ CREATE TABLE nutrientes (
   fosforo VARCHAR(50) DEFAULT '0mg' CHECK (fosforo LIKE '%mg')
 );
 
+-- Criação da tabela de ingredientes
+CREATE TABLE ingredientes (
+  id SERIAL PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL UNIQUE,
+  quantidade INT NOT NULL,
+  id_nutrientes INT REFERENCES nutrientes(id)
+);
+
 
