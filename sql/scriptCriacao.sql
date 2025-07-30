@@ -60,5 +60,10 @@ CREATE TABLE receitas (
   porcao VARCHAR(50) NOT NULL,
   id_tabela_nutricional INT REFERENCES tabela_nutricional(id)
 );
-
+-- Criação da tabela de elementos
+CREATE TABLE elementos (
+  id SERIAL PRIMARY KEY,
+  id_receita INT REFERENCES receitas(id),
+  id_ingredientes INT REFERENCES ingredientes(id)
+);
 
