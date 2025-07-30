@@ -38,3 +38,27 @@ VALUES ('Andreas Dezen Silva','andreas.germinare@gmail.com','1234567810'),
 ('Mariana Marrão Ferreira Felis','mariana.felis@germinare.org.br','1234567810'),
 ('Marcos Guilherme Araújo','marcosedaviaraujo@gmail.com','1234567810'),
 ('Matheus Lima Botana Gama','matheus.gama@germinare.org.br','1234567810'); 
+
+-- Inserção de dados na tabela nutrientes
+INSERT INTO nutrientes (carboidratos, acucares_totais, acucares_adicionados, proteinas, gorduras_totais, gorduras_saturadas, gorduras_trans, fibra_alimentar, sodio, colesterol, vitamina_A, vitamina_C, vitamina_D, calcio, ferro, potassio, magnesio, zinco, fosforo) 
+VALUES('57g', '55g', '26g', '50g', '6g', '3g', '1g', '2g', '78mg', '67mg', '327µg RE', '30mg', '17µg', '110mg', '7mg', '97mg', '55mg', '7mg', '88mg') ,
+('35g', '16g', '36g', '25g', '8g', '1g', '2g', '7g', '1165mg', '156mg', '43µg RE', '40mg', '9µg', '377mg', '9mg', '431mg', '18mg', '9mg', '231mg') ,
+('56g', '7g', '43g', '31g', '45g', '15g', '1g', '4g', '415mg', '144mg', '711µg RE', '42mg', '28µg', '228mg', '17mg', '169mg', '176mg', '3mg', '381mg') ,
+('87g', '48g', '25g', '23g', '19g', '1g', '2g', '0g', '1092mg', '136mg', '169µg RE', '61mg', '12µg', '98mg', '18mg', '978mg', '77mg', '3mg', '128mg') ,
+('84g', '22g', '31g', '37g', '46g', '11g', '0g', '14g', '420mg', '79mg', '740µg RE', '55mg', '12µg', '237mg', '8mg', '238mg', '160mg', '0mg', '66mg') ,
+('85g', '40g', '43g', '9g', '38g', '13g', '1g', '10g', '631mg', '174mg', '583µg RE', '70mg', '6µg', '278mg', '3mg', '320mg', '191mg', '5mg', '71mg') ,
+('10g', '1g', '35g', '8g', '44g', '11g', '2g', '4g', '707mg', '30mg', '185µg RE', '63mg', '14µg', '167mg', '2mg', '675mg', '167mg', '2mg', '317mg') ,
+('91g', '4g', '44g', '33g', '44g', '4g', '2g', '3g', '1029mg', '39mg', '470µg RE', '26mg', '33µg', '338mg', '7mg', '132mg', '27mg', '9mg', '253mg') ,
+('21g', '11g', '11g', '32g', '18g', '1g', '2g', '12g', '360mg', '69mg', '304µg RE', '12mg', '23µg', '84mg', '14mg', '508mg', '162mg', '6mg', '143mg') ,
+('45g', '64g', '50g', '55g', '34g', '6g', '1g', '13g', '437mg', '121mg', '158µg RE', '39mg', '0µg', '193mg', '19mg', '894mg', '144mg', '6mg', '130mg') ,
+('80g', '45g', '26g', '43g', '19g', '18g', '1g', '6g', '1105mg', '114mg', '78µg RE', '81mg', '12µg', '356mg', '2mg', '106mg', '87mg', '9mg', '343mg') ,
+('6g', '33g', '26g', '11g', '3g', '6g', '0g', '2g', '1150mg', '78mg', '591µg RE', '57mg', '23µg', '455mg', '14mg', '823mg', '56mg', '3mg', '393mg') ,
+('37g', '33g', '24g', '23g', '15g', '11g', '2g', '3g', '807mg', '64mg', '482µg RE', '64mg', '23µg', '139mg', '9mg', '928mg', '108mg', '4mg', '158mg') ,
+('94g', '4g', '12g', '9g', '3g', '6g', '1g', '12g', '926mg', '15mg', '215µg RE', '86mg', '25µg', '151mg', '9mg', '354mg', '27mg', '3mg', '186mg') ,
+('9g', '71g', '1g', '13g', '27g', '0g', '2g', '7g', '946mg', '22mg', '177µg RE', '33mg', '10µg', '398mg', '13mg', '726mg', '64mg', '4mg', '100mg') ,
+('28g', '68g', '47g', '30g', '47g', '2g', '1g', '5g', '429mg', '90mg', '447µg RE', '1mg', '12µg', '183mg', '17mg', '999mg', '142mg', '2mg', '156mg') ,
+('65g', '64g', '53g', '20g', '37g', '8g', '2g', '10g', '596mg', '63mg', '386µg RE', '86mg', '16µg', '199mg', '10mg', '848mg', '159mg', '3mg', '217mg') ,
+('81g', '1g', '59g', '34g', '17g', '9g', '0g', '13g', '1055mg', '18mg', '472µg RE', '38mg', '23µg', '143mg', '10mg', '906mg', '81mg', '9mg', '232mg') ,
+('84g', '55g', '53g', '31g', '12g', '14g', '1g', '13g', '256mg', '77mg', '127µg RE', '17mg', '26µg', '288mg', '13mg', '247mg', '64mg', '1mg', '391mg') ,
+('50g', '10g', '18g', '9g', '10g', '4g', '1g', '7g', '823mg', '123mg', '801µg RE', '91mg', '11µg', '432mg', '9mg', '489mg', '97mg', '2mg', '302mg');
+
