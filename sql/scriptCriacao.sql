@@ -53,4 +53,12 @@ CREATE TABLE ingredientes (
   id_nutrientes INT REFERENCES nutrientes(id)
 );
 
+-- Criação da tabela de receitas
+CREATE TABLE receitas (
+  id SERIAL PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL,
+  porcao VARCHAR(50) NOT NULL,
+  id_tabela_nutricional INT REFERENCES tabela_nutricional(id)
+);
+
 
