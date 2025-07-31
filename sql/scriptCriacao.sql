@@ -4,9 +4,9 @@ CREATE TABLE usuarios (
   nome VARCHAR(100) NOT NULL,
   email VARCHAR(320) NOT NULL UNIQUE,
   senha VARCHAR(64) NOT NULL CHECK (LENGTH(senha) >= 8),
-  telefone VARCHAR(25) NOT NULL CHECK (LENGTH(telefone) BETWEEN 8 AND 15),
+  telefone VARCHAR(11) NOT NULL,
   empresa VARCHAR(50) DEFAULT 'Empresa Não Informada',
-  foto VARCHAR(255)
+  foto VARCHAR(255) DEFAULT 'Sem foto'
 );
 
 -- Criação da tabela admins
@@ -58,7 +58,7 @@ CREATE TABLE receitas (
   id SERIAL PRIMARY KEY,
   nome VARCHAR(100) NOT NULL,
   porcao VARCHAR(50) NOT NULL,
-  id_tabela_nutricional INT REFERENCES tabela_nutricional(id)
+  -- id_tabela_nutricional INT REFERENCES tabela_nutricional(id)
 );
 -- Criação da tabela de elementos
 CREATE TABLE elementos (

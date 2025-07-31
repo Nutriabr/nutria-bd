@@ -1,5 +1,5 @@
 -- Inserção de dados na tabela usuario
-INSERT INTO usuario (nome, email, senha, telefone, empresa, foto)
+INSERT INTO usuarios (nome, email, senha, telefone, empresa, foto)
 VALUES('Mariah Aparecida', 'mariah.aparecida@gmail.com', '6skh6PTc', '+55 71 8764-7593', 'da Paz Carvalho S/A', '/explicabo/sit.jpg'),
 ('Clara das Neves', 'clara.das.neves@gmail.com', 'rUR43GIv%7m', '+55 41 1578 1565', 'Novaes Mendes - ME', '/facilis/quasi.jpg'),
 ('Yan Albuquerque', 'yan.albuquerque@yahoo.com', 'vq7hDBAudJj_g', '+55 31 6097 5351', 'Nunes Câmara S.A.', '/quisquam/dicta.jpg'),
