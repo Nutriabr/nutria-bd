@@ -84,3 +84,27 @@ VALUES('açúcar', '361 colheres', 1),
 ('feijão', '283 g', 18),
 ('batata', '5 unidades', 19),
 ('queijo mussarela', '3 fatias', 20);
+
+-- Inserção de dados na tabela receitas
+INSERT INTO receitas (nome, porcao, id_tabela_nutricional)
+VALUES
+('Bolo de Açúcar e Canela', '197g', 1),
+('Arroz com Feijão', '215g', 2),
+('Purê de Batata', '152g', 3),
+('Salada de Cebola e Queijo Mussarela', '179g', 4),
+('Ovos Mexidos com Manteiga', '205g', 5),
+('Pão de Mel com Chocolate Meio Amargo', '230g', 6),
+('Panqueca de Farinha de Trigo e Leite Integral', '127g', 7),
+('Cookie de Aveia e Mel', '142g', 8),
+('Frango ao Vinagre com Pimenta-do-Reino', '224g', 9),
+('Molho de Tomate com Sal e Alho', '319ml', 10),
+('Risoto de Arroz com Queijo Mussarela', '162g', 11),
+('Feijoada Tradicional', '185g', 12),
+('Biscoito de Amido de Milho', '203g', 13),
+('Torta de Batata com Queijo Mussarela', '156g', 14),
+('Bolo de Chocolate Meio Amargo', '132g', 15),
+('Omelete de Ovo com Queijo Mussarela', '179g', 16),
+('Pão de Queijo', '246g', 17),
+('Batata Assada', '83g', 18),
+('Caldo Verde', '342ml', 19),
+('Panetone com Açúcar e Canela', '193g', 20);
