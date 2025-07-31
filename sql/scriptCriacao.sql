@@ -49,7 +49,7 @@ CREATE TABLE nutrientes (
 CREATE TABLE ingredientes (
   id SERIAL PRIMARY KEY,
   nome VARCHAR(100) NOT NULL UNIQUE,
-  quantidade INT NOT NULL,
+  quantidade VARCHAR(50) NOT NULL,
   id_nutrientes INT REFERENCES nutrientes(id)
 );
 

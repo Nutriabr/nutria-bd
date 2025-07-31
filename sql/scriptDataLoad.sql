@@ -62,3 +62,25 @@ VALUES('57g', '55g', '26g', '50g', '6g', '3g', '1g', '2g', '78mg', '67mg', '327�
 ('84g', '55g', '53g', '31g', '12g', '14g', '1g', '13g', '256mg', '77mg', '127µg RE', '17mg', '26µg', '288mg', '13mg', '247mg', '64mg', '1mg', '391mg') ,
 ('50g', '10g', '18g', '9g', '10g', '4g', '1g', '7g', '823mg', '123mg', '801µg RE', '91mg', '11µg', '432mg', '9mg', '489mg', '97mg', '2mg', '302mg');
 
+-- Inserção de dados na tabela ingredientes
+INSERT INTO ingredientes (nome, quantidade, id_nutrientes)
+VALUES('açúcar', '361 colheres', 1),
+('sal', '62 colheres', 2),
+('farinha de trigo', '23 kg', 3),
+('óleo de soja', '1 colher de sopa', 4),
+('leite integral', '156 ml', 5),
+('manteiga', '5 colheres', 6),
+('ovos', '4 unidades', 7),
+('amido de milho', '9 colheres', 8),
+('canela', '485 g', 9),
+('chocolate meio amargo', '1 barra', 10),
+('aveia', '498 g', 11),
+('mel', '3 colheres', 12),
+('vinagre', '100 ml', 13),
+('pimenta-do-reino', '2 colheres', 14),
+('alho', '2 dentes', 15),
+('cebola', '5 fatias', 16),
+('arroz', '117 g', 17),
+('feijão', '283 g', 18),
+('batata', '5 unidades', 19),
+('queijo mussarela', '3 fatias', 20);
