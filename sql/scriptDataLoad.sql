@@ -83,6 +83,28 @@ VALUES (1, '49g', '53g', '2g', '16g', '32g', '15g', '1g', '9g', '976mg', '91mg',
 (19, '33g', '20g', '28g', '33g', '31g', '17g', '2g', '0g', '79mg', '126mg', '333µg RE', '39mg', '29µg', '25mg', '13mg', '192mg') ,
 (20, '70g', '10g', '53g', '46g', '8g', '0g', '1g', '13g', '647mg', '0mg', '218µg RE', '1mg', '0µg', '421mg', '16mg', '626mg') ;
 
+-- Inserção de dados na tabela produto
+INSERT INTO produto (nome)
+VALUES ('Bolo de Açúcar e Canela'),
+('Arroz com Feijão'),
+('Purê de Batata'),
+('Salada de Cebola e Queijo Mussarela'),
+('Ovos Mexidos com Manteiga'),
+('Pão de Mel com Chocolate Meio Amargo'),
+('Panqueca de Farinha de Trigo e Leite Integral'),
+('Cookie de Aveia e Mel'),
+('Frango ao Vinagre com Pimenta-do-Reino'),
+('Molho de Tomate com Sal e Alho'),
+('Risoto de Arroz com Queijo Mussarela'),
+('Feijoada Tradicional'),
+('Biscoito de Amido de Milho'),
+('Torta de Batata com Queijo Mussarela'),
+('Bolo de Chocolate Meio Amargo'),
+('Omelete de Ovo com Queijo Mussarela'),
+('Pão de Queijo'),
+('Batata Assada'),
+('Caldo Verde'),
+('Panetone com Açúcar e Canela');
 
 -- Inserção de dados na tabela receitas
 INSERT INTO receitas (nome, porcao, id_tabela_nutricional)
