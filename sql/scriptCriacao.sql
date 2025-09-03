@@ -57,7 +57,6 @@ CREATE TABLE produto (
 -- Criação da tabela de receitas
 CREATE TABLE receita (
   id SERIAL PRIMARY KEY,
-  nome VARCHAR(100) NOT NULL UNIQUE,
   porcao VARCHAR(100) NOT NULL,
   id_produto INT REFERENCES produto(id)
 );

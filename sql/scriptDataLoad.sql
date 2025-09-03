@@ -61,7 +61,7 @@ VALUES ('açúcar'),
 ('queijo mussarela');
 
 -- Inserção de dados na tabela da tabela_nutricional
-INSERT INTO tabela_nutrientes (id_ingrediente,valor_energetico_kcal, carboidratos_g, acucares_totais_g, acucares_adicionados_g, proteinas_g, gorduras_totais_g, gorduras_saturadas_g, gorduras_trans_g, fibra_alimentar_g, sodio_mg, colesterol_mg, vitamina_a_mcg, vitamina_c_mg, vitamina_d_mcg, calcio_mg, ferro_mg, potassio_mg) 
+INSERT INTO tabela_nutricional (id_ingrediente,valor_energetico_kcal, carboidratos_g, acucares_totais_g, acucares_adicionados_g, proteinas_g, gorduras_totais_g, gorduras_saturadas_g, gorduras_trans_g, fibra_alimentar_g, sodio_mg, colesterol_mg, vitamina_a_mcg, vitamina_c_mg, vitamina_d_mcg, calcio_mg, ferro_mg, potassio_mg) 
 VALUES (1, '49g', '53g', '2g', '16g', '32g', '15g', '1g', '9g', '976mg', '91mg', '597µg RE', '27mg', '32µg', '71mg', '9mg', '143mg') ,
 (2, '96g', '12g', '39g', '51g', '16g', '17g', '2g', '4g', '635mg', '25mg', '747µg RE', '9mg', '21µg', '241mg', '17mg', '103mg') ,
 (3, '45g', '55g', '20g', '39g', '40g', '6g', '2g', '15g', '906mg', '133mg', '266µg RE', '7mg', '35µg', '468mg', '0mg', '95mg') ,
@@ -106,29 +106,28 @@ VALUES ('Bolo de Açúcar e Canela'),
 ('Caldo Verde'),
 ('Panetone com Açúcar e Canela');
 
--- Inserção de dados na tabela receitas
-INSERT INTO receitas (nome, porcao, id_tabela_nutricional)
-VALUES
-('Bolo de Açúcar e Canela', '197g', 1),
-('Arroz com Feijão', '215g', 2),
-('Purê de Batata', '152g', 3),
-('Salada de Cebola e Queijo Mussarela', '179g', 4),
-('Ovos Mexidos com Manteiga', '205g', 5),
-('Pão de Mel com Chocolate Meio Amargo', '230g', 6),
-('Panqueca de Farinha de Trigo e Leite Integral', '127g', 7),
-('Cookie de Aveia e Mel', '142g', 8),
-('Frango ao Vinagre com Pimenta-do-Reino', '224g', 9),
-('Molho de Tomate com Sal e Alho', '319ml', 10),
-('Risoto de Arroz com Queijo Mussarela', '162g', 11),
-('Feijoada Tradicional', '185g', 12),
-('Biscoito de Amido de Milho', '203g', 13),
-('Torta de Batata com Queijo Mussarela', '156g', 14),
-('Bolo de Chocolate Meio Amargo', '132g', 15),
-('Omelete de Ovo com Queijo Mussarela', '179g', 16),
-('Pão de Queijo', '246g', 17),
-('Batata Assada', '83g', 18),
-('Caldo Verde', '342ml', 19),
-('Panetone com Açúcar e Canela', '193g', 20);
+-- Inserção de dados na tabela receita
+INSERT INTO receita (porcao, id_produto)
+VALUES('148g', 1),
+('244g', 2),
+('157g', 3),
+('60g', 4),
+('116g', 5),
+('180g', 6),
+('174g', 7),
+('153g', 8),
+('250g', 9),
+('377ml', 10),
+('172g', 11),
+('141g', 12),
+('199g', 13),
+('105g', 14),
+('179g', 15),
+('85g', 16),
+('122g', 17),
+('85g', 18),
+('493ml', 19),
+('74g', 20);
 
 -- Inserção de dados na tabela elementos
 INSERT INTO elementos (id_receita, id_ingredientes)
