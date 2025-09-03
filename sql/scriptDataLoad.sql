@@ -1,25 +1,25 @@
 -- Inserção de dados na tabela usuario
-INSERT INTO usuarios (nome, email, senha, telefone, empresa, foto)
-VALUES('Mariah Aparecida', 'mariah.aparecida@gmail.com', '6skh6PTc', '+55 71 8764-7593', 'da Paz Carvalho S/A', '/explicabo/sit.jpg'),
-('Clara das Neves', 'clara.das.neves@gmail.com', 'rUR43GIv%7m', '+55 41 1578 1565', 'Novaes Mendes - ME', '/facilis/quasi.jpg'),
-('Yan Albuquerque', 'yan.albuquerque@yahoo.com', 'vq7hDBAudJj_g', '+55 31 6097 5351', 'Nunes Câmara S.A.', '/quisquam/dicta.jpg'),
-('Ayla Barros', 'ayla.barros@icloud.com', 'S3drwgrhvWCCq', '(051) 8714 8418', 'Nogueira', '/sed/enim.jpg'),
-('Laura Macedo', 'laura.macedo@icloud.com', 'Un5mD<XQ1', '+55 31 9659 3423', 'Andrade Pimenta e Filhos', '/pariatur/facilis.jpg'),
-('Caio Rocha', 'caio.rocha@gmail.com', '@0Ef)R4qM*X', '+55 81 2018 6848', 'Cunha Rocha - EI', '/repellendus/nihil.jpg'),
-('Rael Monteiro', 'rael.monteiro@hotmail.com', 'k6P6GSB<kM7%', '11 1591 7953', 'Almeida Siqueira Ltda.', '/voluptatibus/cum.jpg'),
-('Marcelo Vieira', 'marcelo.vieira@hotmail.com', '9GeD<O-%a4', '+55 (041) 5601-2309', 'Alves S/A', '/eaque/tempora.jpg'),
-('Bárbara Gonçalves', 'barbara.goncalves@outlook.com', '8Awma44-7NiW', '+55 31 5109 0321', 'Costela', '/veritatis/assumenda.jpg'),
-('Yago Lima', 'yago.lima@outlook.com', 'l7P8Oayb_&#', '0900-141-3145', 'Cirino', '/provident/assumenda.jpg'),
-('Ana Cecília Peixoto', 'ana.cecilia.peixoto@icloud.com', 'e&+gLf77jKQ', '+55 41 6345 7923', 'Viana e Filhos', '/dolorem/dolore.jpg'),
-('Dr. Dante Peixoto', 'dr.dante.peixoto@icloud.com', '-_723EZC(ItebQ', '(031) 2076-9845', 'Ribeiro', '/dolor/explicabo.jpg'),
-('Alice Marques', 'alice.marques@outlook.com', 'a3efczNvLP4', '+55 21 5084 2375', 'Rocha', '/rerum/magnam.jpg'),
-('Caroline Silva', 'caroline.silva@outlook.com', 'sKFhYBF%eYXe50i', '(041) 6610 9352', 'Câmara Porto - ME', '/voluptatum/minus.jpg'),
-('Maria Vitória Andrade', 'maria.vitoria.andrade@hotmail.com', 'PkoJ&f!$hYP', '71 9602 7142', 'Moura', '/ratione/placeat.jpg'),
-('Agatha Andrade', 'agatha.andrade@gmail.com', '_$mLqEeD>', '11 5470-6381', 'Albuquerque Guerra e Filhos', '/ipsam/nesciunt.jpg'),
-('Heitor Albuquerque', 'heitor.albuquerque@icloud.com', 'v259YLoqe5eydK)', '+55 (011) 8913 1934', 'Sales', '/consequuntur/ducimus.jpg'),
-('Maria Laura Pires', 'maria.laura.pires@outlook.com', 'eN$ff%F+RS', '+55 21 0471 4285', 'Cassiano Ltda.', '/animi/ad.jpg'),
-('Gustavo Rodrigues', 'gustavo.rodrigues@gmail.com', 'GSO_p4sEZ', '+55 71 8559-0977', 'Freitas', '/dolorum/quidem.jpg'),
-('Marcos Vinicius Pastor', 'marcos.vinicius.pastor@icloud.com', 'y6fJ<<fqu_&&Cm#', '(021) 0224 5551', 'Vasconcelos', '/amet/sit.jpg');
+INSERT INTO usuario (nome, email, senha, telefone, empresa, foto)
+VALUES('Mariah Aparecida', 'mariah.aparecida@gmail.com', '6skh6PTc', '11913389083', 'Moraes', '/necessitatibus/placeat.jpg'),
+('Rhavi Fogaça', 'rhavi.fogaca@outlook.com', 'qT!a!2Al=zhh$U', '11907816184', 'Montenegro Carvalho Ltda.', '/consequatur/deserunt.jpg'),
+('Isis Nascimento', 'isis.nascimento@outlook.com', 'S3drwgrhvWCCq', '11941928327', 'das Neves Brito e Filhos', '/vitae/aut.jpg'),
+('Dr. Carlos Eduardo Fogaça', 'dr.carlos.eduardo.fogaca@yahoo.com', '<XQ1#8rcyuq+', '11953767242', 'Dias', '/tempore/similique.jpg'),
+('Yuri Mendes', 'yuri.mendes@hotmail.com', '6GSB<kM7%lm1', '11991669784', 'Moreira', '/assumenda/facilis.jpg'),
+('Alice Borges', 'alice.borges@outlook.com', '1i*68Awm', '11904828148', 'Santos', '/sunt/velit.jpg'),
+('Thales Farias', 'thales.farias@outlook.com', 'l7P8Oayb_&#', '11943039117', 'Siqueira Duarte e Filhos', '/eaque/at.jpg'),
+('Hellena da Costa', 'hellena.da.costa@gmail.com', 'jKQu&GqP5p', '11946578713', 'Nogueira Machado S/A', '/ipsum/beatae.jpg'),
+('Rebeca Caldeira', 'rebeca.caldeira@hotmail.com', 'ATrqfWr(%', '11918347382', 'Novaes', '/voluptatibus/illum.jpg'),
+('Yan Farias', 'yan.farias@outlook.com', 'sKFhYBF%eYXe50i', '11933872624', 'Pereira Novaes - EI', '/numquam/illo.jpg'),
+('Matheus Dias', 'matheus.dias@yahoo.com', '&f!$hYPbh7s', '11967736026', 'da Rocha Cirino S.A.', '/aliquid/ea.jpg'),
+('Joana Melo', 'joana.melo@gmail.com', 'u9JG=<Q4lw-SP6', '11900978820', 'Borges e Filhos', '/distinctio/delectus.jpg'),
+('Bruno Sampaio', 'bruno.sampaio@outlook.com', '$ff%F+RSd', '11916998543', 'Santos', '/harum/qui.jpg'),
+('Isabela Cunha', 'isabela.cunha@icloud.com', 'ukXJ_+aVRhP', '11984251354', 'Pacheco', '/odio/harum.jpg'),
+('Maria Alice Barros', 'maria.alice.barros@hotmail.com', '#3V<Ya!xZ+kiiQu', '11993534874', 'Pimenta', '/placeat/cum.jpg'),
+('Lívia Correia', 'livia.correia@gmail.com', 'W@dzk>mI3', '11980112805', 'Almeida Siqueira Ltda.', '/voluptatibus/cum.jpg'),
+('Marcelo Vieira', 'marcelo.vieira@outlook.com', 'HdC_-dB1ZB', '11986923226', 'Farias Lima S/A', '/dignissimos/consequuntur.jpg'),
+('Srta. Ana Clara Oliveira', 'srta.ana.clara.oliveira@gmail.com', '5z_0%!u9i&', '11973375433', 'Alves S/A', '/eaque/tempora.jpg'),
+('Bárbara Gonçalves', 'barbara.goncalves@gmail.com', 'Evf8BN1#zc&', '11942940196', 'Freitas S/A', '/sequi/amet.jpg'),
+('Gael Cirino', 'gael.cirino@icloud.com', 'H>i(odHO!1+5p', '11961595148', 'Mendes S.A.', '/veritatis/assumenda.jpg');
 
 -- Inserção de dados na tabela admins
 INSERT INTO admins(nome,email,senha)
