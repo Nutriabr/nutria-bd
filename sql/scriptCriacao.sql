@@ -51,7 +51,8 @@ CREATE TABLE tabela_nutricional (
 -- Criação da tabela de produtos
 CREATE TABLE produto (
   id SERIAL PRIMARY KEY,
-  nome VARCHAR(100) NOT NULL UNIQUE
+  nome VARCHAR(100) NOT NULL UNIQUE,
+  id_usuario INT REFERENCES usuario(id)
 );
 
 -- Criação da tabela de receitas
