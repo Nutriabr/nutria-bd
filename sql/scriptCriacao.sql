@@ -36,6 +36,7 @@ CREATE TABLE tabela_nutricional (
   proteinas_g DECIMAL(6, 2) NOT NULL DEFAULT 0,
   gorduras_totais_g DECIMAL(6, 2) NOT NULL DEFAULT 0,
   gorduras_saturadas_g DECIMAL(6, 2) NOT NULL DEFAULT 0,
+  gorduras_trans_g DECIMAL(6, 2) NOT NULL DEFAULT 0,
   fibra_alimentar_g DECIMAL(6, 2) NOT NULL DEFAULT 0,
   sodio_mg DECIMAL(6, 2) NOT NULL DEFAULT 0,
 

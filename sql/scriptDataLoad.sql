@@ -1,28 +1,28 @@
 -- Inserção de dados na tabela usuario
-INSERT INTO usuarios (nome, email, senha, telefone, empresa, foto)
-VALUES('Mariah Aparecida', 'mariah.aparecida@gmail.com', '6skh6PTc', '+55 71 8764-7593', 'da Paz Carvalho S/A', '/explicabo/sit.jpg'),
-('Clara das Neves', 'clara.das.neves@gmail.com', 'rUR43GIv%7m', '+55 41 1578 1565', 'Novaes Mendes - ME', '/facilis/quasi.jpg'),
-('Yan Albuquerque', 'yan.albuquerque@yahoo.com', 'vq7hDBAudJj_g', '+55 31 6097 5351', 'Nunes Câmara S.A.', '/quisquam/dicta.jpg'),
-('Ayla Barros', 'ayla.barros@icloud.com', 'S3drwgrhvWCCq', '(051) 8714 8418', 'Nogueira', '/sed/enim.jpg'),
-('Laura Macedo', 'laura.macedo@icloud.com', 'Un5mD<XQ1', '+55 31 9659 3423', 'Andrade Pimenta e Filhos', '/pariatur/facilis.jpg'),
-('Caio Rocha', 'caio.rocha@gmail.com', '@0Ef)R4qM*X', '+55 81 2018 6848', 'Cunha Rocha - EI', '/repellendus/nihil.jpg'),
-('Rael Monteiro', 'rael.monteiro@hotmail.com', 'k6P6GSB<kM7%', '11 1591 7953', 'Almeida Siqueira Ltda.', '/voluptatibus/cum.jpg'),
-('Marcelo Vieira', 'marcelo.vieira@hotmail.com', '9GeD<O-%a4', '+55 (041) 5601-2309', 'Alves S/A', '/eaque/tempora.jpg'),
-('Bárbara Gonçalves', 'barbara.goncalves@outlook.com', '8Awma44-7NiW', '+55 31 5109 0321', 'Costela', '/veritatis/assumenda.jpg'),
-('Yago Lima', 'yago.lima@outlook.com', 'l7P8Oayb_&#', '0900-141-3145', 'Cirino', '/provident/assumenda.jpg'),
-('Ana Cecília Peixoto', 'ana.cecilia.peixoto@icloud.com', 'e&+gLf77jKQ', '+55 41 6345 7923', 'Viana e Filhos', '/dolorem/dolore.jpg'),
-('Dr. Dante Peixoto', 'dr.dante.peixoto@icloud.com', '-_723EZC(ItebQ', '(031) 2076-9845', 'Ribeiro', '/dolor/explicabo.jpg'),
-('Alice Marques', 'alice.marques@outlook.com', 'a3efczNvLP4', '+55 21 5084 2375', 'Rocha', '/rerum/magnam.jpg'),
-('Caroline Silva', 'caroline.silva@outlook.com', 'sKFhYBF%eYXe50i', '(041) 6610 9352', 'Câmara Porto - ME', '/voluptatum/minus.jpg'),
-('Maria Vitória Andrade', 'maria.vitoria.andrade@hotmail.com', 'PkoJ&f!$hYP', '71 9602 7142', 'Moura', '/ratione/placeat.jpg'),
-('Agatha Andrade', 'agatha.andrade@gmail.com', '_$mLqEeD>', '11 5470-6381', 'Albuquerque Guerra e Filhos', '/ipsam/nesciunt.jpg'),
-('Heitor Albuquerque', 'heitor.albuquerque@icloud.com', 'v259YLoqe5eydK)', '+55 (011) 8913 1934', 'Sales', '/consequuntur/ducimus.jpg'),
-('Maria Laura Pires', 'maria.laura.pires@outlook.com', 'eN$ff%F+RS', '+55 21 0471 4285', 'Cassiano Ltda.', '/animi/ad.jpg'),
-('Gustavo Rodrigues', 'gustavo.rodrigues@gmail.com', 'GSO_p4sEZ', '+55 71 8559-0977', 'Freitas', '/dolorum/quidem.jpg'),
-('Marcos Vinicius Pastor', 'marcos.vinicius.pastor@icloud.com', 'y6fJ<<fqu_&&Cm#', '(021) 0224 5551', 'Vasconcelos', '/amet/sit.jpg');
+INSERT INTO usuario (nome, email, senha, telefone, empresa, foto)
+VALUES('Mariah Aparecida', 'mariah.aparecida@gmail.com', '6skh6PTc', '11913389083', 'Moraes', '/necessitatibus/placeat.jpg'),
+('Rhavi Fogaça', 'rhavi.fogaca@outlook.com', 'qT!a!2Al=zhh$U', '11907816184', 'Montenegro Carvalho Ltda.', '/consequatur/deserunt.jpg'),
+('Isis Nascimento', 'isis.nascimento@outlook.com', 'S3drwgrhvWCCq', '11941928327', 'das Neves Brito e Filhos', '/vitae/aut.jpg'),
+('Dr. Carlos Eduardo Fogaça', 'dr.carlos.eduardo.fogaca@yahoo.com', '<XQ1#8rcyuq+', '11953767242', 'Dias', '/tempore/similique.jpg'),
+('Yuri Mendes', 'yuri.mendes@hotmail.com', '6GSB<kM7%lm1', '11991669784', 'Moreira', '/assumenda/facilis.jpg'),
+('Alice Borges', 'alice.borges@outlook.com', '1i*68Awm', '11904828148', 'Santos', '/sunt/velit.jpg'),
+('Thales Farias', 'thales.farias@outlook.com', 'l7P8Oayb_&#', '11943039117', 'Siqueira Duarte e Filhos', '/eaque/at.jpg'),
+('Hellena da Costa', 'hellena.da.costa@gmail.com', 'jKQu&GqP5p', '11946578713', 'Nogueira Machado S/A', '/ipsum/beatae.jpg'),
+('Rebeca Caldeira', 'rebeca.caldeira@hotmail.com', 'ATrqfWr(%', '11918347382', 'Novaes', '/voluptatibus/illum.jpg'),
+('Yan Farias', 'yan.farias@outlook.com', 'sKFhYBF%eYXe50i', '11933872624', 'Pereira Novaes - EI', '/numquam/illo.jpg'),
+('Matheus Dias', 'matheus.dias@yahoo.com', '&f!$hYPbh7s', '11967736026', 'da Rocha Cirino S.A.', '/aliquid/ea.jpg'),
+('Joana Melo', 'joana.melo@gmail.com', 'u9JG=<Q4lw-SP6', '11900978820', 'Borges e Filhos', '/distinctio/delectus.jpg'),
+('Bruno Sampaio', 'bruno.sampaio@outlook.com', '$ff%F+RSd', '11916998543', 'Santos', '/harum/qui.jpg'),
+('Isabela Cunha', 'isabela.cunha@icloud.com', 'ukXJ_+aVRhP', '11984251354', 'Pacheco', '/odio/harum.jpg'),
+('Maria Alice Barros', 'maria.alice.barros@hotmail.com', '#3V<Ya!xZ+kiiQu', '11993534874', 'Pimenta', '/placeat/cum.jpg'),
+('Lívia Correia', 'livia.correia@gmail.com', 'W@dzk>mI3', '11980112805', 'Almeida Siqueira Ltda.', '/voluptatibus/cum.jpg'),
+('Marcelo Vieira', 'marcelo.vieira@outlook.com', 'HdC_-dB1ZB', '11986923226', 'Farias Lima S/A', '/dignissimos/consequuntur.jpg'),
+('Srta. Ana Clara Oliveira', 'srta.ana.clara.oliveira@gmail.com', '5z_0%!u9i&', '11973375433', 'Alves S/A', '/eaque/tempora.jpg'),
+('Bárbara Gonçalves', 'barbara.goncalves@gmail.com', 'Evf8BN1#zc&', '11942940196', 'Freitas S/A', '/sequi/amet.jpg'),
+('Gael Cirino', 'gael.cirino@icloud.com', 'H>i(odHO!1+5p', '11961595148', 'Mendes S.A.', '/veritatis/assumenda.jpg');
 
 -- Inserção de dados na tabela admins
-INSERT INTO admins(nome,email,senha)
+INSERT INTO admin(nome,email,senha)
 VALUES ('Andreas Dezen Silva','andreas.germinare@gmail.com','1234567810'),
 ('Beatriz Teixeira Marioti','b.tmarioti3.0@gmail.com','1234567810'),
 ('Caio de Oliveira Garcia','caiodegarcia.oficial@gmail.com','1234567810'),
@@ -40,7 +40,7 @@ VALUES ('Andreas Dezen Silva','andreas.germinare@gmail.com','1234567810'),
 ('Matheus Lima Botana Gama','matheus.gama@germinare.org.br','1234567810'); 
 
 -- Inserção de dados na tabela ingredientes
-INSERT INTO ingredientes (nome)
+INSERT INTO ingrediente (nome)
 VALUES ('açúcar'),
 ('sal'),
 ('farinha de trigo'),
@@ -58,30 +58,32 @@ VALUES ('açúcar'),
 ('alho'),
 ('feijão'),
 ('batata'),
-('queijo mussarela');
+('queijo mussarela'),
+('fermento químico'),
+('arroz branco');
 
 -- Inserção de dados na tabela da tabela_nutricional
 INSERT INTO tabela_nutricional (id_ingrediente,valor_energetico_kcal, carboidratos_g, acucares_totais_g, acucares_adicionados_g, proteinas_g, gorduras_totais_g, gorduras_saturadas_g, gorduras_trans_g, fibra_alimentar_g, sodio_mg, colesterol_mg, vitamina_a_mcg, vitamina_c_mg, vitamina_d_mcg, calcio_mg, ferro_mg, potassio_mg) 
-VALUES (1, '49g', '53g', '2g', '16g', '32g', '15g', '1g', '9g', '976mg', '91mg', '597µg RE', '27mg', '32µg', '71mg', '9mg', '143mg') ,
-(2, '96g', '12g', '39g', '51g', '16g', '17g', '2g', '4g', '635mg', '25mg', '747µg RE', '9mg', '21µg', '241mg', '17mg', '103mg') ,
-(3, '45g', '55g', '20g', '39g', '40g', '6g', '2g', '15g', '906mg', '133mg', '266µg RE', '7mg', '35µg', '468mg', '0mg', '95mg') ,
-(4, '92g', '51g', '45g', '52g', '50g', '20g', '0g', '15g', '682mg', '62mg', '747µg RE', '41mg', '4µg', '97mg', '18mg', '227mg') ,
-(5, '30g', '18g', '51g', '34g', '28g', '2g', '0g', '10g', '1040mg', '125mg', '111µg RE', '38mg', '35µg', '149mg', '3mg', '560mg') ,
-(6, '42g', '69g', '13g', '51g', '38g', '17g', '2g', '9g', '911mg', '23mg', '610µg RE', '49mg', '20µg', '294mg', '7mg', '297mg') ,
-(7, '23g', '24g', '52g', '11g', '2g', '19g', '2g', '8g', '975mg', '17mg', '91µg RE', '86mg', '8µg', '448mg', '4mg', '945mg') ,
-(8, '4g', '10g', '57g', '44g', '34g', '12g', '2g', '8g', '1068mg', '60mg', '869µg RE', '27mg', '26µg', '296mg', '8mg', '461mg') ,
-(9, '63g', '45g', '5g', '20g', '39g', '3g', '1g', '10g', '389mg', '62mg', '16µg RE', '93mg', '17µg', '59mg', '7mg', '380mg') ,
-(10, '21g', '42g', '27g', '52g', '3g', '3g', '0g', '7g', '92mg', '146mg', '649µg RE', '68mg', '4µg', '13mg', '3mg', '650mg') ,
-(11, '24g', '77g', '53g', '36g', '7g', '12g', '0g', '11g', '237mg', '9mg', '620µg RE', '2mg', '12µg', '492mg', '5mg', '735mg') ,
-(12, '15g', '61g', '13g', '46g', '3g', '0g', '2g', '13g', '207mg', '66mg', '71µg RE', '28mg', '4µg', '331mg', '9mg', '358mg') ,
-(13, '55g', '23g', '3g', '32g', '29g', '1g', '2g', '3g', '801mg', '51mg', '266µg RE', '45mg', '30µg', '429mg', '18mg', '173mg') ,
-(14, '89g', '26g', '49g', '3g', '50g', '5g', '0g', '10g', '1084mg', '64mg', '120µg RE', '76mg', '28µg', '340mg', '5mg', '13mg') ,
-(15, '60g', '52g', '57g', '36g', '32g', '9g', '2g', '11g', '795mg', '168mg', '256µg RE', '19mg', '35µg', '353mg', '0mg', '468mg') ,
-(16, '94g', '10g', '21g', '47g', '2g', '17g', '1g', '4g', '491mg', '195mg', '493µg RE', '45mg', '18µg', '344mg', '11mg', '604mg') ,
-(17, '81g', '79g', '8g', '45g', '19g', '12g', '2g', '13g', '165mg', '0mg', '608µg RE', '24mg', '21µg', '81mg', '7mg', '228mg') ,
-(18, '81g', '57g', '24g', '45g', '43g', '18g', '1g', '1g', '823mg', '179mg', '581µg RE', '53mg', '2µg', '84mg', '14mg', '65mg') ,
-(19, '33g', '20g', '28g', '33g', '31g', '17g', '2g', '0g', '79mg', '126mg', '333µg RE', '39mg', '29µg', '25mg', '13mg', '192mg') ,
-(20, '70g', '10g', '53g', '46g', '8g', '0g', '1g', '13g', '647mg', '0mg', '218µg RE', '1mg', '0µg', '421mg', '16mg', '626mg') ;
+VALUES (1,432,49,53,2,16,32,15,1,9,976,91,597,27,32,71,9,143),
+(2,386,12,79,51,16,34,19,0,9,202,186,75,87,21,241,17,103),
+(3,181,55,40,39,40,13,17,1,14,1067,66,63,70,0,47,12,727),
+(4,422,100,80,0,39,31,10,0,10,128,48,581,28,15,411,4,822),
+(5,278,57,11,5,20,32,15,0,9,1128,74,723,15,35,170,17,208),
+(6,493,77,70,37,18,28,2,2,12,649,147,247,37,11,96,5,33),
+(7,313,84,33,30,4,5,4,0,1,164,179,849,69,25,428,16,282),
+(8,267,30,27,57,43,37,13,2,8,922,126,676,82,22,42,10,627),
+(9,59,62,75,40,21,12,7,0,8,239,180,225,47,10,170,13,835),
+(10,31,12,18,54,44,14,1,2,2,54,31,650,24,7,200,2,379),
+(11,426,14,4,38,1,12,5,2,3,981,53,744,7,1,278,13,635),
+(12,51,33,8,14,4,41,9,1,13,369,15,515,59,2,305,3,716),
+(13,200,25,33,22,57,46,15,2,5,416,196,59,100,10,432,5,350),
+(14,271,32,15,38,58,28,5,0,15,839,145,895,65,19,332,11,397),
+(15,428,84,32,9,35,44,0,1,2,687,189,46,69,17,69,7,780),
+(16,488,61,45,39,18,43,11,2,4,635,99,766,53,5,0,19,196),
+(17,357,42,20,15,14,40,14,1,13,64,102,892,89,26,395,1,169),
+(18,228,8,33,44,10,28,16,1,0,79,126,333,39,29,25,13,192),
+(19,280,81,10,53,46,8,0,1,13,647,0,218,1,0,421,16,626),
+(20,50,24,15,38,41,12,9,1,5,205,121,874,50,5,11,8,935);
 
 -- Inserção de dados na tabela produto
 INSERT INTO produto (nome)
@@ -130,24 +132,24 @@ VALUES('148g', 1),
 ('74g', 20);
 
 -- Inserção de dados na tabela receita_ingrediente
-INSERT INTO receita_ingrediente (id_receita, id_ingredientes,quantidade)
-VALUES(1, 1, 905),
-(2, 2, 509),
-(3, 3, 451),
-(4, 4, 695),
-(5, 5, 500),
-(6, 6, 379),
-(7, 7, 161),
-(8, 8, 341),
-(9, 9, 175),
-(10, 10, 550),
-(11, 11, 709),
-(12, 12, 387),
-(13, 13, 555),
-(14, 14, 434),
-(15, 15, 763),
-(16, 16, 126),
-(17, 17, 479),
-(18, 18, 129),
-(19, 19, 383),
-(20, 20, 241);
+INSERT INTO receita_ingrediente (id_receita, id_ingrediente,quantidade)
+VALUES(1, 1, 900),
+(2, 2, 605),
+(3, 3, 583),
+(4, 4, 371),
+(5, 5, 803),
+(6, 6, 650),
+(7, 7, 517),
+(8, 8, 35),
+(9, 9, 25),
+(10, 10, 715),
+(11, 11, 359),
+(12, 12, 134),
+(13, 13, 218),
+(14, 14, 299),
+(15, 15, 765),
+(16, 16, 390),
+(17, 17, 27),
+(18, 18, 231),
+(19, 19, 74),
+(20, 20, 704);
