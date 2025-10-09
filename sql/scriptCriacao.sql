@@ -19,12 +19,17 @@ CREATE TABLE usuario (
 );
 
 -- Criação da tabela admins
-CREATE TABLE admin (
-  id SERIAL PRIMARY KEY,
-  nome VARCHAR(100) NOT NULL,
-  email VARCHAR(320) NOT NULL UNIQUE,
-  senha VARCHAR(64) NOT NULL CHECK (LENGTH(senha) >= 8)
+CREATE TABLE admin(
+  id    SERIAL PRIMARY KEY,
+  nome    VARCHAR(100) NOT NULL,
+  email      VARCHAR(320) NOT NULL UNIQUE,
+  senha      VARCHAR(64)  NOT NULL CHECK (LENGTH(Senha) >= 8),
+  telefone   VARCHAR(11) NOT NULL UNIQUE,
+  nascimento DATE NOT NULL,
+  cargo      VARCHAR(64) NOT NULL DEFAULT 'Admin',
+  foto       VARCHAR(255) DEFAULT 'Sem foto'
 );
+
 
 -- Criação da tabela ingredientes
 CREATE TABLE ingrediente (
