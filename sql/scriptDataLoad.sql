@@ -22,22 +22,22 @@ VALUES('Mariah Aparecida', 'mariah.aparecida@gmail.com', '6skh6PTc', '1191338908
 ('Gael Cirino', 'gael.cirino@icloud.com', 'H>i(odHO!1+5p', '11961595148', 'Mendes S.A.', '/veritatis/assumenda.jpg');
 
 -- Inserção de dados na tabela admins
-INSERT INTO admin(nome,email,senha)
-VALUES ('Andreas Dezen Silva','andreas.germinare@gmail.com','1234567810'),
-('Beatriz Teixeira Marioti','b.tmarioti3.0@gmail.com','1234567810'),
-('Caio de Oliveira Garcia','caiodegarcia.oficial@gmail.com','1234567810'),
-('Enzo D´angio Mota','enzo.mota@germinare.org.br','1234567810'),
-('Gabriel Ferreira Texeira','gabriel.ferreira@germinare.org.br','1234567810'),
-('Giovanna Almeida dos Santos','gihalmeida127@gmail.com','1234567810'),
-('Giovanna Medeiros Veloso','giovanna.veloso@germinare.org.br','1234567810'),
-('Giulia Galeote Santana Oliveira','giulia.gso.2008@gmail.com','1234567810'),
-('Giulia Monteiro Monara','giulia.manara@germinare.org.br','1234567810'),
-('Lívia Izidório','liviaizidorio.li@gmail.com','1234567810'),
-('Luis Henrique Medeiros ','luis.medeiros@germinare.org.br','1234567810'),
-('Luke Francischini Pereira dos Santos','pereiraluke12.gmail.com','1234567810'),
-('Mariana Marrão Ferreira Felis','mariana.felis@germinare.org.br','1234567810'),
-('Marcos Guilherme Araújo','marcosedaviaraujo@gmail.com','1234567810'),
-('Matheus Lima Botana Gama','matheus.gama@germinare.org.br','1234567810'); 
+INSERT INTO admin(nome,email,senha,telefone,nascimento,cargo,foto)
+VALUES ('Andreas Dezen Silva','andreas.germinare@gmail.com','1234567810','11978562442','2010/08/16','Analista', '/veritatis/assumenda.jpg'),
+('Beatriz Teixeira Marioti','b.tmarioti3.0@gmail.com','1234567810','11913139297','2008/09/09','Scrum Master','/veritatis/assumenda.jpg'),
+('Caio de Oliveira Garcia','caiodegarcia.oficial@gmail.com','1234567810','11984858093','2008/05/20','Analista','/veritatis/assumenda.jpg'),
+('Enzo D´angio Mota','enzo.mota@germinare.org.br','1234567810','11992866128','2010/03/12','Desenvolvedor','/veritatis/assumenda.jpg'),
+('Gabriel Ferreira Texeira','gabriel.ferreira@germinare.org.br','1234567810','11972721701', '2009/01/17','Scrum Master','/veritatis/assumenda.jpg'),
+('Giovanna Almeida dos Santos','gihalmeida127@gmail.com','1234567810','11942026405','2010/01/17','Scrum Master','/veritatis/assumenda.jpg'),
+('Giovanna Medeiros Veloso','giovanna.veloso@germinare.org.br','1234567810','11997831648','2009/07/31','Desenvolvedora','/veritatis/assumenda.jpg'),
+('Giulia Galeote Santana Oliveira','giulia.gso.2008@gmail.com','1234567810','11953062483', '2008/08/19','Desenvolvedora','/veritatis/assumenda.jpg'),
+('Giulia Monteiro Monara','giulia.manara@germinare.org.br','1234567810','11969803064', '2009/06/09','Analista','/veritatis/assumenda.jpg'),
+('Lívia Izidório','liviaizidorio.li@gmail.com','1234567810','11987307953', '2008/12/22','Product Owner','/veritatis/assumenda.jpg'),
+('Luis Henrique Medeiros ','luis.medeiros@germinare.org.br','1234567810','11939603223', '2009/04/05','Desenvolvedor','/veritatis/assumenda.jpg'),
+('Luke Francischini Pereira dos Santos','pereiraluke12.gmail.com','1234567810','11960648215', '2008/11/25','Product Owner','/veritatis/assumenda.jpg'),
+('Mariana Marrão Ferreira Felis','mariana.felis@germinare.org.br','1234567810', '11941286166','2010/01/15','Analista','/veritatis/assumenda.jpg'),
+('Marcos Guilherme Araújo','marcosedaviaraujo@gmail.com','1234567810','11950056954', '2009/01/02','Desenvolvedor','/veritatis/assumenda.jpg'),
+('Matheus Lima Botana Gama','matheus.gama@germinare.org.br','1234567810','11983147995', '2010/02/14','Designer','/veritatis/assumenda.jpg'); 
 
 -- Inserção de dados na tabela ingredientes
 INSERT INTO ingrediente (nome)
