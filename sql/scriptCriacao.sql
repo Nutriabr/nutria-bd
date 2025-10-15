@@ -89,9 +89,9 @@ CREATE TABLE receita_ingrediente (
 
 -- Adicionando regex de telefone na tabela de admin e usuario
 ALTER TABLE admin
-ADD CONSTRAINT telefone_valido
-CHECK (telefone ~'\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}')
+ADD CONSTRAINT admin_telefone_valido
+CHECK (telefone ~'^\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}$')
 
 ALTER TABLE usuario
-ADD CONSTRAINT telefone_valido
-CHECK (telefone ~'\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}')
+ADD CONSTRAINT usuario_telefone_valido
+CHECK (telefone ~'^\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}$')
