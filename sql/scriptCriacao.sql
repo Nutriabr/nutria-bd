@@ -19,7 +19,7 @@ CREATE TABLE usuario (
 );
 
 -- Criação da tabela admins
-CREATE TABLE admin(
+CREATE TABLE admin (
   id SERIAL PRIMARY KEY,
   nome VARCHAR(100) NOT NULL,
   email VARCHAR(320) NOT NULL UNIQUE,
@@ -86,3 +86,12 @@ CREATE TABLE receita_ingrediente (
   FOREIGN KEY (id_receita) REFERENCES receita(id),
   FOREIGN KEY (id_ingrediente) REFERENCES ingrediente(id)
 );
+
+-- Adicionando regex de telefone na tabela de admin e usuario
+ALTER TABLE admin
+ADD CONSTRAINT admin_telefone_valido
+CHECK (telefone ~'^\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}$')
+
+ALTER TABLE usuario
+ADD CONSTRAINT usuario_telefone_valido
+CHECK (telefone ~'^\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}$')
