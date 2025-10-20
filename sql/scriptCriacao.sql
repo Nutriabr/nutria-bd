@@ -79,12 +79,13 @@ CREATE TABLE receita (
 
 -- Criação da tabela de conexão de receitas com ingrediente
 CREATE TABLE receita_ingrediente (
-  id_receita INT NOT NULL,
-  id_ingrediente INT NOT NULL,
-  quantidade DECIMAL(6, 2) NOT NULL,
-  PRIMARY KEY (id_receita, id_ingrediente),
-  FOREIGN KEY (id_receita) REFERENCES receita(id),
-  FOREIGN KEY (id_ingrediente) REFERENCES ingrediente(id)
+    id SERIAL PRIMARY KEY,
+    id_receita INT NOT NULL,
+    id_ingrediente INT NOT NULL,
+    quantidade DECIMAL(10,2) NOT NULL,
+    CONSTRAINT uq_receita_ingrediente UNIQUE (id_receita, id_ingrediente),
+    FOREIGN KEY (id_receita) REFERENCES receita(id),
+    FOREIGN KEY (id_ingrediente) REFERENCES ingrediente(id)
 );
 
 -- Adicionando regex de telefone na tabela de admin e usuario
