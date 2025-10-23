@@ -13,7 +13,7 @@ CREATE TABLE usuario (
   nome VARCHAR(100) NOT NULL,
   email VARCHAR(320) NOT NULL UNIQUE,
   senha VARCHAR(64) NOT NULL,
-  telefone VARCHAR(11) NOT NULL UNIQUE CHECK (LENGTH(telefone)=11),
+  telefone VARCHAR(15) NOT NULL UNIQUE CHECK (telefone ~'^\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}$'),
   empresa VARCHAR(50) DEFAULT 'Empresa Não Informada',
   foto VARCHAR(255) DEFAULT 'Sem foto'
 );
@@ -24,7 +24,7 @@ CREATE TABLE admin (
   nome VARCHAR(100) NOT NULL,
   email VARCHAR(320) NOT NULL UNIQUE,
   senha VARCHAR(64)  NOT NULL,
-  telefone VARCHAR(11) NOT NULL UNIQUE CHECK(LENGTH(telefone)=11),
+  telefone VARCHAR(15) NOT NULL UNIQUE CHECK (telefone ~'^\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}$'),
   nascimento DATE NOT NULL,
   cargo VARCHAR(64) NOT NULL DEFAULT 'Admin',
   foto VARCHAR(255) DEFAULT 'Sem foto'
@@ -41,7 +41,7 @@ CREATE TABLE ingrediente (
 -- Criação da tabela com a informação nutricional
 CREATE TABLE tabela_nutricional (
   -- PK é a mesma do ingrediente, criando uma relação 1-1
-  id_ingrediente INT PRIMARY KEY REFERENCES ingrediente(id),
+  id_ingrediente INT PRIMARY KEY REFERENCES ingrediente(id) ON DELETE CASCADE,
 
   valor_energetico_kcal DECIMAL(6, 2) NOT NULL,
   carboidratos_g DECIMAL(6, 2) NOT NULL,
@@ -67,32 +67,21 @@ CREATE TABLE tabela_nutricional (
 CREATE TABLE produto (
   id SERIAL PRIMARY KEY,
   nome VARCHAR(100) NOT NULL UNIQUE,
-  id_usuario INT REFERENCES usuario(id)
+  id_usuario INT REFERENCES usuario(id) ON DELETE CASCADE
 );
 
 -- Criação da tabela de receitas
 CREATE TABLE receita (
   id SERIAL PRIMARY KEY,
   porcao VARCHAR(100) NOT NULL,
-  id_produto INT REFERENCES produto(id)
+  id_produto INT REFERENCES produto(id) ON DELETE CASCADE
 );
 
 -- Criação da tabela de conexão de receitas com ingrediente
 CREATE TABLE receita_ingrediente (
     id SERIAL PRIMARY KEY,
-    id_receita INT NOT NULL,
-    id_ingrediente INT NOT NULL,
+    id_receita INT NOT NULL REFERENCES receita(id) ON DELETE CASCADE,
+    id_ingrediente INT NOT NULL REFERENCES ingrediente(id) ON DELETE CASCADE,
     quantidade DECIMAL(10,2) NOT NULL,
-    CONSTRAINT uq_receita_ingrediente UNIQUE (id_receita, id_ingrediente),
-    FOREIGN KEY (id_receita) REFERENCES receita(id),
-    FOREIGN KEY (id_ingrediente) REFERENCES ingrediente(id)
+    CONSTRAINT uq_receita_ingrediente UNIQUE (id_receita, id_ingrediente)
 );
-
--- Adicionando regex de telefone na tabela de admin e usuario
-ALTER TABLE admin
-ADD CONSTRAINT admin_telefone_valido
-CHECK (telefone ~'^\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}$')
-
-ALTER TABLE usuario
-ADD CONSTRAINT usuario_telefone_valido
-CHECK (telefone ~'^\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}$')

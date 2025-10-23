@@ -42,26 +42,26 @@ VALUES
 
 -- Inserção de dados na tabela ingredientes
 INSERT INTO ingrediente (nome)
-VALUES ('açúcar'),
-('sal'),
-('farinha de trigo'),
-('óleo de soja'),
-('leite integral'),
-('manteiga'),
-('ovo'),
-('amido de milho'),
-('canela'),
-('chocolate meio amargo'),
-('aveia'),
-('mel'),
-('vinagre'),
-('pimenta-do-reino'),
-('alho'),
-('feijão'),
-('batata'),
-('queijo mussarela'),
-('fermento químico'),
-('arroz branco');
+VALUES ('Açúcar'),
+('Sal'),
+('Farinha de trigo'),
+('Óleo de soja'),
+('Leite Integral'),
+('Manteiga'),
+('Ovo'),
+('Amido de Milho'),
+('Canela'),
+('Chocolate Meio Amargo'),
+('Aveia'),
+('Mel'),
+('Vinagre'),
+('Pimenta do Reino'),
+('Alho'),
+('Feijão'),
+('Batata'),
+('Queijo Mussarela'),
+('Fermento Químico'),
+('Arroz Branco');
 
 -- Inserção de dados na tabela da tabela_nutricional
 INSERT INTO tabela_nutricional (id_ingrediente,valor_energetico_kcal, carboidratos_g, acucares_totais_g, acucares_adicionados_g, proteinas_g, gorduras_totais_g, gorduras_saturadas_g, gorduras_trans_g, fibra_alimentar_g, sodio_mg, colesterol_mg, vitamina_a_mcg, vitamina_c_mg, vitamina_d_mcg, calcio_mg, ferro_mg, potassio_mg) 
