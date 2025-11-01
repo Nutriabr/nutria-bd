@@ -13,7 +13,7 @@ CREATE TABLE usuario (
   nome VARCHAR(100) NOT NULL,
   email VARCHAR(320) NOT NULL UNIQUE,
   senha VARCHAR(64) NOT NULL,
-  telefone VARCHAR(15) NOT NULL UNIQUE CHECK (telefone ~'^\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}$'),
+  telefone VARCHAR(11) NOT NULL UNIQUE CHECK (telefone ~'^\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}$'),
   empresa VARCHAR(50) DEFAULT 'Empresa Não Informada',
   foto VARCHAR(255) DEFAULT 'Sem foto'
 );
@@ -24,7 +24,7 @@ CREATE TABLE admin (
   nome VARCHAR(100) NOT NULL,
   email VARCHAR(320) NOT NULL UNIQUE,
   senha VARCHAR(64)  NOT NULL,
-  telefone VARCHAR(15) NOT NULL UNIQUE CHECK (telefone ~'^\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}$'),
+  telefone VARCHAR(11) NOT NULL UNIQUE CHECK (telefone ~'^\(?[0-9]{2}\)? ?[0-9]{5}-?[0-9]{4}$'),
   nascimento DATE NOT NULL,
   cargo VARCHAR(64) NOT NULL DEFAULT 'Admin',
   foto VARCHAR(255) DEFAULT 'Sem foto'
