@@ -24,21 +24,21 @@ VALUES('Mariah Aparecida', 'mariah.aparecida@gmail.com', '$2b$12$DoELVAhu1qabJ0I
 -- Inserção de dados na tabela admins
 INSERT INTO admin(nome,email,senha,telefone,nascimento,cargo,foto)
 VALUES
-('Andreas Dezen Silva','andreas.germinare@gmail.com','$2a$12$F4O81tYCxfJ6vnV9vX2r/euMWt/C5Dr26Dxd4LBSSTF.Wr9KUDW8.','11978562442','2010-08-16','Analista','/veritatis/assumenda.jpg'),
-('Beatriz Teixeira Marioti','b.tmarioti3.0@gmail.com','$2a$12$vKNNZ3vFpcga52dqu6fneOAK2FtkJmqseiZ1t4zxXgMLv40gi7S0m','11913139297','2008-09-09','Scrum Master','/veritatis/assumenda.jpg'),
-('Caio de Oliveira Garcia','caiodegarcia.oficial@gmail.com','$2a$12$aDMR52i/HoycbNA99AlxzeO1wob.pjrxb12eFyk0geGLbF6SBqSyC','11984858093','2008-05-20','Analista','/veritatis/assumenda.jpg'),
-('Enzo D´angio Mota','enzo.mota@germinare.org.br','$2a$12$6nt04OBgOrZ3u6RRO4aCLOqWaiRCZ3ls1bTuolRkXK3F.ouYcAwwi','11992866128','2010-03-12','Desenvolvedor','/veritatis/assumenda.jpg'),
-('Gabriel Ferreira Texeira','gabriel.ferreira@germinare.org.br','$2a$12$iU0krQEyBI9TC8boSP07B.7sbEvtP.9LTZpfD9p3/r/ss4FUNzKU6','11972721701','2009-01-17','Scrum Master','/veritatis/assumenda.jpg'),
-('Giovanna Almeida dos Santos','gihalmeida127@gmail.com','$2a$12$DSHfDiXSwqOlVNIGPZE4P.4eF2fIGQWyzVCr1.bi4SyGemj9S3pIu','11942026405','2010-01-17','Scrum Master','/veritatis/assumenda.jpg'),
-('Giovanna Medeiros Veloso','giovanna.veloso@germinare.org.br','$2a$12$.1ehIjR48YEgkrTw3apMkusBd.GbvEktG2D5li/dIKGn51JWzJmHy','11997831648','2009-07-31','Desenvolvedora','/veritatis/assumenda.jpg'),
-('Giulia Galeote Santana Oliveira','giulia.gso.2008@gmail.com','$2a$12$BY51MmTKnlF52rF8N2GMluYDoJi3d1hlMsEP7pGF0wAWEHxxCSGD.','11953062483','2008-08-19','Desenvolvedora','/veritatis/assumenda.jpg'),
-('Giulia Monteiro Manara','giulia.manara@germinare.org.br','$2a$12$EnGT9Ujw2Cz6ycSv4w05h.J9GMDkVPpeZJYzkI/1eFM7GnsBkBHqq','11969803064','2009-06-09','Analista','/veritatis/assumenda.jpg'),
-('Lívia Izidório','liviaizidorio.li@gmail.com','$2a$12$5PbH3G7vP0uV3ui7YHUcpO.Ztu4Ecj/Vx/8QPvII/WAR2DFVMqP/W','11987307953','2008-12-22','Product Owner','/veritatis/assumenda.jpg'),
-('Luis Henrique Medeiros','luis.medeiros@germinare.org.br','$2a$12$PaEtimJrdeqHoF8M/tPRw.gWLqGwAp3ZWH3OcJO0sBzc98WUTEvWW','11939603223','2009-04-05','Desenvolvedor','/veritatis/assumenda.jpg'),
-('Luke Francischini Pereira dos Santos','pereiraluke12@gmail.com','$2a$12$lNqmNVKZpyza7PeiX/QH1eLz5mpIZaF8xY8avybNlwD2DSNsch8gK','11960648215','2008-11-25','Product Owner','/veritatis/assumenda.jpg'),
-('Mariana Marrão Ferreira Felis','mariana.felis@germinare.org.br','$2a$12$8ugDwSd8jtQncrYYa8KAgOICay.zgjZzFtz2MHaeKXm2bB4xKS6Y2','11941286166','2010-01-15','Analista','/veritatis/assumenda.jpg'),
-('Marcos Guilherme Araújo','marcosedaviaraujo@gmail.com','$2a$12$D/k1D5NLCAn8S6V6R4hpxutQJv3mplDS8X8cK4fzQ8AcmmbIOtIcW','11950056954','2009-01-02','Desenvolvedor','/veritatis/assumenda.jpg'),
-('Matheus Lima Botana Gama','matheus.gama@germinare.org.br','$2a$12$HuVI8YVQcvje0nmyqvAFDOKPKp33.jjfEw81ZHSUIExMG9qsYeLrm','11983147995','2010-02-14','Designer','/veritatis/assumenda.jpg');
+('Andreas Dezen Silva','andreas.germinare@gmail.com','$2a$12$5rJo6zDw4xDA.wcL4wdQmOqpR0tf66nrT3b57YJvVUe6BnEYs4Szy','11978562442','2010-08-16','Analista','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575153/WhatsApp_Image_2025-10-27_at_11.22.01_1_nsvs4o.jpg'),
+('Beatriz Teixeira Marioti','b.tmarioti3.0@gmail.com','$2a$12$FVNRvsqfPxtX3bjc2M848Oi6tEomjjJRxYOOPdJcx0JU5rhhZGzFC','11913139297','2008-09-09','Scrum Master','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575153/WhatsApp_Image_2025-10-27_at_11.22.02_gmd38y.jpg'),
+('Caio de Oliveira Garcia','caiodegarcia.oficial@gmail.com','$2a$12$ZcykVaogLhENaVaHNflueO/7oeUjiBoiJQ.yq5T/uOVx3eseHwMLy','11984858093','2008-05-20','Analista','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761661655/WhatsApp_Image_2025-10-28_at_10.03.59_g0coyl.jpg'),
+('Enzo D´angio Mota','enzo.mota@germinare.org.br','$2a$12$iD1pQEh49IsyAbU96Rh66e9hLexXhkpRbY9yZ/UCdKwZhZisl/9Gy','11992866128','2010-03-12','Desenvolvedor','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575153/WhatsApp_Image_2025-10-27_at_11.22.01_g97uhz.jpg'),
+('Gabriel Ferreira Texeira','gabriel.ferreira@germinare.org.br','$2a$12$zhjtTJk5ucoZSFLKarRGI.TRDB7w6K8LwiQF361Ow1d2LF7ed2fQK','11972721701','2009-01-17','Scrum Master','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575509/WhatsApp_Image_2025-10-27_at_11.31.31_nsvwb1.jpg'),
+('Giovanna Almeida dos Santos','gihalmeida127@gmail.com','$2a$12$T3WfWyf7NsvcRdsLjI4W7OzY6nptdQ9o..055Tdva8O6CBKGC9uCq','11942026405','2010-01-17','Scrum Master','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575151/WhatsApp_Image_2025-10-27_at_11.21.58_lhk3eg.jpg'),
+('Giovanna Medeiros Veloso','giovanna.veloso@germinare.org.br','$2a$12$.ecqr3hFoT1CPwkUpSTzVOcXYKEcDiCrJvliutNwPB1Khvdl2pLIS','11997831648','2009-07-31','Desenvolvedora','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575133/WhatsApp_Image_2025-10-27_at_11.21.57_atpip0.jpg'),
+('Giulia Galeote Santana Oliveira','giulia.gso.2008@gmail.com','$2a$12$TwA3CWlMq5xZM.b50S5UluqPzIgUBPPcF5/40EUeraHoQf64LIe3W','11953062483','2008-08-19','Desenvolvedora','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575153/WhatsApp_Image_2025-10-27_at_11.22.03_1_pz2e42.jpg'),
+('Giulia Monteiro Manara','giulia.manara@germinare.org.br','$2a$12$pq3tbOQVT51.ZCxzUq7p2OAvI6Gl5CsRQlPoXNbMxGgNnZbS6Yv6S','11969803064','2009-06-09','Analista','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575153/WhatsApp_Image_2025-10-27_at_11.22.00_efzdhe.jpg'),
+('Lívia Izidório','liviaizidorio.li@gmail.com','$2a$12$02aPuGPE9XkIGDgFzpoGcOgLWt307RNmFnrF1FQMArNddXt/gx/a6','11987307953','2008-12-22','Product Owner','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575153/WhatsApp_Image_2025-10-27_at_11.22.03_u0h0ra.jpg'),
+('Luis Henrique Medeiros','luis.medeiros@germinare.org.br','$2a$12$5Wxsbxt5AxzzEnpwcJFlBO7dNVaseTWAt7pk1ENkJ7zQnTiJhghZ6','11939603223','2009-04-05','Desenvolvedor','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575153/WhatsApp_Image_2025-10-27_at_11.21.57_1_zmppzr.jpg'),
+('Luke Francischini Pereira dos Santos','pereiraluke12@gmail.com','$2a$12$CkElcIKSXIhdKf39fP0VEuubkqc6.jEvi08iBZE9STc2/oPksSXwS','11960648215','2008-11-25','Product Owner','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575152/WhatsApp_Image_2025-10-27_at_11.21.58_1_aaxtkx.jpg'),
+('Mariana Marrão Ferreira Felis','mariana.felis@germinare.org.br','$2a$12$HmLFV1nf3bcycLfRFMhUQ.Zu25FLREdpOUCs6TbxnkwYIju3hbBqq','11941286166','2010-01-15','Analista','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575153/WhatsApp_Image_2025-10-27_at_11.21.59_zxvoix.jpg'),
+('Marcos Guilherme Araújo','marcosedaviaraujo@gmail.com','$2a$12$eNN.RLw//xKkwGpgDYrPy.DCx4.up3ZQ9pXWDnjammMJ9wZfugJpy','11950056954','2009-01-02','Desenvolvedor','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575152/WhatsApp_Image_2025-10-27_at_11.21.58_1_aaxtkx.jpg'),
+('Matheus Lima Botana Gama','matheus.gama@germinare.org.br','$2a$12$8zwVDJk3Nu/OaQFFP08m0OSuBKHaKNdKHudm80RlJ7SLgc0m1cpU2','11983147995','2010-02-14','Product Owner','https://res.cloudinary.com/dtvvd7xif/image/upload/v1761575158/WhatsApp_Image_2025-10-27_at_11.21.57_2_jeb7au.jpg');
 
 -- Inserção de dados na tabela ingredientes
 INSERT INTO ingrediente (nome)
